@@ -8,13 +8,61 @@
 <body>
     <h1>workshop-GIT</h1>
 
-    <h2>control de versiones</h2>
-    <p>Un control de versiones se encarga del registro de los cambios realizados a lo largo del tiempo en uno o un conjunto de archivos, de forma talparr
-    que estos puedan ser recuperados con precisión de acuerdo a las necesidades de los usuarios.</p>
-    <p>Si te fijas bien, podrás ver que la configuración para pull.rebase está repetida y
-        tiene valores distintos. Esto puede ser normal, ya que puedes tener más de un archivo
-        gitconfig en tu sistema (puedes tenerlo de forma local en el repositorio actual, de
-        forma global o ser configuración del sistema). Lo importante que debes saber es que
-        el último valor de la lista es el que prevalece.</p>
+    <h2> ¿que es un control de versiones?</h2>
+    <p>Un control de versiones es un sistema que registra cada cambio que se realiza
+        en el código fuente de un proyecto. Esto te permite tener un histórico de todos los
+        cambios producidos en sus ficheros, saber quién lo hizo y cuándo.
+        Podría entenderse como un sistema para crear copias de seguridad de nuestro
+        código, y en gran parte así es, pero su uso también se extiende a cómo lidiamos con
+        las actualizaciones de ese código y lo sincronizamos entre diferentes personas que
+        trabajan y revisan el mismo proyecto.</p>
+    <h2> ¿que es GIt?</h2>
+    <p>Git es un sistema distribuido de control de versiones, gratuito y de código abierto.
+        Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. 
+        Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.</p>
+        <h2>¿Qué es un repositorio?, repositorio locales y remotos?</h2>
+        <p>Los repositorios son archivos donde se almacenan recursos digitales de manera que estos pueden ser accesibles a través de internet. </p>
+        <p>repositorios locales: son contenedores de archivos que se encuentra en tu ordenador. Éste puede tener un proyecto lleno de diferentes archivos 
+        y es allí donde vas haciendo tus modificaciones y guardardolas para así, ir creando varias versiones.</p>
+        <p>repositorios remotos: Los repositorios remotos son versiones de tu proyecto que están hospedadas en Internet o en cualquier otra red. Puedes tener varios de ellos, 
+        y en cada uno tendrás generalmente permisos de solo lectura o de lectura y escritura.</p>
+        <h2>¿Qué es una rama en GIT y para qué sirve?</h2>
+        <p>Una rama es una versión de la colección de directorios y archivos del
+            repositorio. Cada vez que se crea una nueva rama, se crea una copia de la colección
+            de archivos actual y a partir de esta rama puedes crear más ramas. en ocasiones se pueden integrar ramas. A esta acción, la de integrar una rama en otra, se le
+            llama merge o fusionar. una rama GIT Permite a varios desarrolladores trabajar en diferentes características o correcciones al mismo tiempo sin interferir entre
+            sí tambien permite que las ramas se pueden usar para gestionar el proceso de integración y despliegue continuo, permitiendo que el código se combine y despliegue de manera 
+            controlada.</p>
+            <h2>¿Cuáles son los estados en GIT?</h2>
+            <p> los tres estados en GIT representan el ciclo de vida de los archivos en el repositorio que son:</p>
+            <ol>
+            <li>modificado: El archivo contiene cambios pero todavía no han sido
+            marcados para ser confirmados. Se encuentra en el directorio de trabajo.</li>
+            <li>preparado: Son los archivos que han sido modificados en el directorio
+            de trabajo y se han marcado como preparados para ser confirmados en el
+            repositorio local. Se encuentran en un área temporal transitoria. Esta acción
+            recibe el nombre de add.</li>
+            <li>confirmado: El archivo se encuentra grabado en el repositorio
+            local. Esta acción recibe el nombre de commit.</li>
+            </ol>
+            <h2>¿Qué es la terminal, consola o línea de comandos y para qué sirve?</h2>
+            <p>la linea de comandos GIT es la interfaz más básica que se puede usar para trabajar con Git,
+                pero también es la única que te ofrece las más complejas y completas funcionalidades
+                de control. Además, sólo esta interfaz es completamente universal e independiente
+                de la plataforma, del sistema operativo y de los editores de texto, también conocidos
+                como IDE. GIT sirve para ejecutar programas y scripts directamente desde el sistema operativo, crear, mover, copiar, renombrar y eliminar archivos de manera eficiente,
+                Permite realizar configuraciones y ajustes en el sistema operativo que pueden no estar disponibles a través de una interfaz gráfica.</p>
+            <h2>Escribir el funcionamiento de cada uno de los siguientes comandos</h2>
+            <ul>
+                <li>LS:</li>
+                <li>CD (DIRECTORIO):</li>
+                <li>CD ..:</li>
+                <li>PWD:</li>
+                <li>MKDIR (NOMBRE):</li>
+                <li>TOUCH (NOMBRE):</li>
+                <li>RM (NOMBRE):</li>
+                <li>CP (NOMBRE) (DIRECTORIO):</li>
+                <li>MV (NOMBRE) (DIRECTORIO):</li>
+            </ul>
 </body>
 </html>
